@@ -36,6 +36,8 @@ class Restaurant: NSObject, MKAnnotation {
         } else {
             self.coordinate = CLLocationCoordinate2D()
         }
+        
+        print(title)
     }
     
     var subtitle: String? {
