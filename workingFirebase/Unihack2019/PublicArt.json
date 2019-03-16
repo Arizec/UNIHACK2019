@@ -1,0 +1,1183 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "yef5-h88r",
+      "name" : "Public Art",
+      "averageRating" : 0,
+      "createdAt" : 1339713152,
+      "description" : "Location and descriptions of public works of art",
+      "displayType" : "table",
+      "downloadCount" : 780,
+      "indexUpdatedAt" : 1414777382,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 837646,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1341784505,
+      "publicationGroup" : 360565,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1341784473,
+      "rowsUpdatedBy" : "gcjf-354x",
+      "tableId" : 376534,
+      "totalTimesRated" : 0,
+      "viewCount" : 1040,
+      "viewLastModified" : 1341784505,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 12638421,
+        "name" : "creator",
+        "dataTypeName" : "text",
+        "fieldName" : "creator",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165089,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 144,
+          "smallest" : "after Goreemon Ono",
+          "null" : 55,
+          "largest" : "Yoshinari Kochi",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Sean Browne"
+          }, {
+            "count" : 19,
+            "item" : "Marguerite Louis Blasingame"
+          }, {
+            "count" : 18,
+            "item" : "Charles Watson"
+          }, {
+            "count" : 17,
+            "item" : "Paul Saviskas"
+          }, {
+            "count" : 16,
+            "item" : "Edward M. Brownlee"
+          }, {
+            "count" : 15,
+            "item" : "Jan Gordon Fisher"
+          }, {
+            "count" : 14,
+            "item" : "Jay D. Wilson"
+          }, {
+            "count" : 13,
+            "item" : "Sandy Vitarelli"
+          }, {
+            "count" : 12,
+            "item" : "Stephen Meder"
+          }, {
+            "count" : 11,
+            "item" : "Bumpei Akaji"
+          }, {
+            "count" : 10,
+            "item" : "Charles Palumbo"
+          }, {
+            "count" : 9,
+            "item" : "Wood, Weed & Associates"
+          }, {
+            "count" : 8,
+            "item" : "Harry Sims Bent"
+          }, {
+            "count" : 7,
+            "item" : "Kate Kelly"
+          }, {
+            "count" : 6,
+            "item" : "Carl Heinmiller"
+          }, {
+            "count" : 5,
+            "item" : "Bill Chang"
+          }, {
+            "count" : 4,
+            "item" : "H.L. Kerr"
+          }, {
+            "count" : 3,
+            "item" : "George Newton"
+          }, {
+            "count" : 2,
+            "item" : "Mark Brown"
+          }, {
+            "count" : 1,
+            "item" : "Mari Sakamoto"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638422,
+        "name" : "credit",
+        "dataTypeName" : "text",
+        "fieldName" : "credit",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3246335,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 150,
+          "smallest" : "City and County of Honolulu Purcahse",
+          "null" : 49,
+          "largest" : "Transfer from the State of Hawaii",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Funded by the Works Progress Administration"
+          }, {
+            "count" : 19,
+            "item" : "City and County of Honolulu Purchase"
+          }, {
+            "count" : 18,
+            "item" : "Funded by the Comprehensive Employment Training Act"
+          }, {
+            "count" : 17,
+            "item" : "City and County of Honolulu Purcahse"
+          }, {
+            "count" : 16,
+            "item" : "Gift of the Republic of Portugal"
+          }, {
+            "count" : 15,
+            "item" : "Gift of the City of Yokohama, Japan"
+          }, {
+            "count" : 14,
+            "item" : "Gift of the City of Hiroshima, Japan"
+          }, {
+            "count" : 13,
+            "item" : "Gift of the World Cultural Communication Association"
+          }, {
+            "count" : 12,
+            "item" : "Gift of Mabel T. Aimoto"
+          }, {
+            "count" : 11,
+            "item" : "Gift of Jan-Michelle Sawyer"
+          }, {
+            "count" : 10,
+            "item" : "Gift of the Walter and Louise Dillingham Foundation"
+          }, {
+            "count" : 9,
+            "item" : "Transfer from the State of Hawaii"
+          }, {
+            "count" : 8,
+            "item" : "Gift of George N. Newton"
+          }, {
+            "count" : 7,
+            "item" : "Gift of the Community"
+          }, {
+            "count" : 6,
+            "item" : "Gift of Mrs. Walter F. Dillingham"
+          }, {
+            "count" : 5,
+            "item" : "Gift of the Honolulu Zoological Society"
+          }, {
+            "count" : 4,
+            "item" : "Gift of Janice Judd and the family, classmates, colleagues and friends of Frank Case Judd"
+          }, {
+            "count" : 3,
+            "item" : "On loan from TV Land"
+          }, {
+            "count" : 2,
+            "item" : "Gift of the Sun Yat-sen Foundation for Peace & Education"
+          }, {
+            "count" : 1,
+            "item" : "Gift of the Dr. Sun Yat-sen Hawaii Foundation"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638423,
+        "name" : "date",
+        "dataTypeName" : "number",
+        "fieldName" : "date",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3165090,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 184,
+          "smallest" : "1500",
+          "sum" : "382052",
+          "null" : 15,
+          "average" : "2076.369565217391",
+          "largest" : "19919",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1935"
+          }, {
+            "count" : 19,
+            "item" : "2001"
+          }, {
+            "count" : 18,
+            "item" : "1967"
+          }, {
+            "count" : 17,
+            "item" : "2000"
+          }, {
+            "count" : 16,
+            "item" : "1987"
+          }, {
+            "count" : 15,
+            "item" : "1989"
+          }, {
+            "count" : 14,
+            "item" : "1994"
+          }, {
+            "count" : 13,
+            "item" : "1977"
+          }, {
+            "count" : 12,
+            "item" : "1996"
+          }, {
+            "count" : 11,
+            "item" : "1990"
+          }, {
+            "count" : 10,
+            "item" : "1978"
+          }, {
+            "count" : 9,
+            "item" : "1998"
+          }, {
+            "count" : 8,
+            "item" : "1976"
+          }, {
+            "count" : 7,
+            "item" : "1999"
+          }, {
+            "count" : 6,
+            "item" : "2003"
+          }, {
+            "count" : 5,
+            "item" : "1992"
+          }, {
+            "count" : 4,
+            "item" : "1964"
+          }, {
+            "count" : 3,
+            "item" : "1959"
+          }, {
+            "count" : 2,
+            "item" : "1968"
+          }, {
+            "count" : 1,
+            "item" : "1937"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638424,
+        "name" : "description",
+        "dataTypeName" : "text",
+        "fieldName" : "description",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165091,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "\"In commemoration of the 100th anniversary of Kapiolani Park a time capsule was deposited on this day, June 11, 1977, to be opened on June 11, 2077. Frank F. Fasi, Mayor, City & County of Honolulu. Young Suk Ko, Director of Parks and Recreation.\" The time capsule is located in the ruins of an old lily pond. Located in Kapiolani Park near the Kapiolani Park Bandstand.",
+          "null" : 0,
+          "largest" : "Wool and linen tapestry.",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Stainless steel figure of a feeding female whooping crane. Located in the Honolulu Zoo Flamingo Exhibit."
+          }, {
+            "count" : 19,
+            "item" : "Plaque bearing the following description: \"This park is dedicated in memory of Frank Case Judd, 1915-1976, State Legislator 1959-1972, a man of love, character and integrity whose life enriched Hawaii and the lives of all who knew him. This plaque is given by his wife Janice, his family, classmates, colleagues and friends. October 25, 1977.\" Plaque has a relief portrait and is mounted on a boulder. Located at Frank C. Judd Park."
+          }, {
+            "count" : 18,
+            "item" : "Plaque with releif portrait medallion in honor of the dedication of the Mother Waldron Playground in 1937. Located at the Mother Waldron Neighborhood Park stage."
+          }, {
+            "count" : 17,
+            "item" : "Bronze memorial plaque with the inscription: \"Kihachi and Shika Kashiwabara, the first Japanese immigrants to settle in Moiliili (1893), dedicated on April 1994.\" Located at the triangle park at King and Beretania Streets."
+          }, {
+            "count" : 16,
+            "item" : "In-filled black granite plaque with a single line border design commemorating the naming of the Waianae District Park Gymnasium after Sinyei Nakamine. Located at the Waianae District Park Gymnasium."
+          }, {
+            "count" : 15,
+            "item" : "The time capsule commemorating the City and County of Honolulu Centennial. The time capsule is installed within the Frank F. Fasi Civic Center Directory marker. Installed on April 13, 2007, to be opened in 2056. Located on the grounds of the Honolulu Civic Center."
+          }, {
+            "count" : 14,
+            "item" : "A lifesize bronze statue of Elvis Presley from the 1973 \"Aloha from Hawaii\" concert with guitar and microphone on a stand. The figure stands atop a bronze pedestal. \"Elvis, Aloha from Hawaii, The World's First Satellite TV Concert, January 14, 1973. With supreme talent and sincere humility, Elvis Presley made his gift the world's. 'Thank you. Thank you very much.' From the People of TV Land.\" Located at Neal Blaisdell Center."
+          }, {
+            "count" : 13,
+            "item" : "Plaque for \"Neal S. Blaisdell Center, dedicated 1964, Exhibition Hall expansion, galleria and meeting facilities, dedicated September 1995, Mayor Jeremy Harris, City Council, John DeSoto, Chair, Duke Bainum, John Henry Felix, Mufi Hannemann, Steve Holmes, Donna Mercado Kim, Rene Mansho, Andy Mirikitani, Jon Yoshimura.\" Located on the Neal Blaisdell Center lawn."
+          }, {
+            "count" : 12,
+            "item" : "Waikiki Historic Trail marker shaped like a surfboard with a porcelain enamel metal sign attached. Located at Kuhio Beach near Monsarrat Avenue."
+          }, {
+            "count" : 11,
+            "item" : "An outdoor sculpture pedestal and surrounding tile mosaic for the sculpture entitled \"Sun Yat-sen\" by I-Fan Chen. It is a three-tiered octagonal pedestal of polished solid black granite. Located along Sun Yat-Sen Mall."
+          }, {
+            "count" : 10,
+            "item" : "Statue of Sun Yat-sen as a boy aged 13 years old dressed in traditional Chinese garments: hat, jacket, tunic, and shoes; carrying two books in his right hand. The accompanying plaque reads, \"'This is my Hawaii... here I was brought up and educated; and it was here that I came to know what modern, civilized governments are like and what they mean.' Dr. Sun Yat-sen. In 1879, at the age of thirteen, Sun Yat-sen came to Hawaii from Zhongshan, China. It was here in Honolulu, that he spent many of his teenage years growing up and being educated. China's first revolutionary society the Xing Zhong Hui (Revive China Society) was organized in Hawaii in 1894. Sun Yat-sen went to overthrow the Qing Dynasty and establish a democratic China in 1911. The dedication of this statue recognizes t he sacrifice and support of the people of Hawaii in nurturing the roots of 'Modern China' and it's Founding Father. The Dr. Sun Yat-sen Hawaii Foundation, November 12, 2007.\" Located in Dr. Sun Yat-sen Memorial Park."
+          }, {
+            "count" : 9,
+            "item" : "Wall clock set into the stone above the second floor landing of the grand staircase of the Honolulu Hale courtyard."
+          }, {
+            "count" : 8,
+            "item" : "A sculpture from Incheon Metropolitan City, Republic of Korea gifted to the City and County of Honolulu entitled, \"Become a Star\" by artist Mr. Moon-Young Lee and and manufactured in July 2008 of metal and stone. The shapes of  the sculpture symbolize a ship floating on the sea surrounded by floating seaweed with the embodiment of the moon and signifiers of the stars in the skies of the Republic of Korea and the United States of America, representing the mutual exchanges of the countries' peoples and the nostalgia of immigrants. The sculpture was created to promote active exchanges and cooperation between Incheon Metropolitan City and the City and County of Honolulu."
+          }, {
+            "count" : 7,
+            "item" : "Monument marker for the site of the Japanese Central Institute of Hawaii. Concrete marker with inset stone plaque."
+          }, {
+            "count" : 6,
+            "item" : "Bronze plaque set into a stone wall that reads, \"Waimanalo Beach Park Pavilion, in memory of, Gabby \"Pop\" Pahinui, April 22, 1921, October 13, 1980.\" Located at the Waimanalo Beach Park Pavilion."
+          }, {
+            "count" : 5,
+            "item" : "Art Deco pillar concrete monument to memorialize soldiers from the Waialua and Kahuku area of Oahu, Hawaii that lost their lives during World War II, and the Korean War. The monument is capped with a glass and metal enclosure. There are large bronze plaques on three sides of the monument's base. The monument is contained within a low circular concrete wall. Leading to the monument is a concrete path flanked with 17 large shell casings mounted upright in concrete blocks with chain strung between them."
+          }, {
+            "count" : 4,
+            "item" : "Japanese bell within a temple housing erected for the Festival for World Peace in Hawaii, December 10, 1991. Located at Neal S. Blaisdell Park."
+          }, {
+            "count" : 3,
+            "item" : "A sculpture depicting part of a large upright sharpened wooden pencil made of plywood and laminated white pine."
+          }, {
+            "count" : 2,
+            "item" : "A bronze sculpture depicting a seated girl with outstretched arms holding butterflies."
+          }, {
+            "count" : 1,
+            "item" : "Located on 12th Avenue near Waialae Avenue lies a small boulder with a bronze plaque. The plaque has a textured back-ground; raised text - san serif fonts, all capitals. The text describes the history of Kaikuki and the origins of the name. Plaque has raised frame of approximately 1/2\" around edges. Mounted on volcanic boulder with heavily sanded mortar."
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638425,
+        "name" : "locationname",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165092,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "12th Avenue near Waialae Avenue",
+          "null" : 0,
+          "largest" : "Waimanalo District Park Multi-Sport Building Exterior",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Alapai Police Station 2nd Floor Makai Parapet"
+          }, {
+            "count" : 19,
+            "item" : "Alapai Police Station 2nd Floor Ewa Parapet"
+          }, {
+            "count" : 18,
+            "item" : "Alapai Police Station 2nd Floor Diamond Head Parapet"
+          }, {
+            "count" : 17,
+            "item" : "Lester McCoy Pavillion"
+          }, {
+            "count" : 16,
+            "item" : "Veteran's Memorial Aquatic Center"
+          }, {
+            "count" : 15,
+            "item" : "Triangle Park at King and Beretania Streets"
+          }, {
+            "count" : 14,
+            "item" : "Honolulu Hale Courtyard"
+          }, {
+            "count" : 13,
+            "item" : "Pawaa Inha Neighborhood Park"
+          }, {
+            "count" : 12,
+            "item" : "Foster Botanical Garden"
+          }, {
+            "count" : 11,
+            "item" : "Waimanalo Beach Park Pavilion"
+          }, {
+            "count" : 10,
+            "item" : "Haleiwa Beach Park"
+          }, {
+            "count" : 9,
+            "item" : "Neal S. Blaisdell Park"
+          }, {
+            "count" : 8,
+            "item" : "Kapolei Hale Entry"
+          }, {
+            "count" : 7,
+            "item" : "Foster Botanical Garden Butterfly Garden"
+          }, {
+            "count" : 6,
+            "item" : "12th Avenue near Waialae Avenue"
+          }, {
+            "count" : 5,
+            "item" : "Honolulu Zoo Entrance"
+          }, {
+            "count" : 4,
+            "item" : "Bamboo Ridge near Halona Blowhole"
+          }, {
+            "count" : 3,
+            "item" : "Herbert K. Pililaau Community Park Gym"
+          }, {
+            "count" : 2,
+            "item" : "Herbert K. Pililaau Community Park"
+          }, {
+            "count" : 1,
+            "item" : "Wahiawa Police Station"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 12638426,
+        "name" : "imagefile",
+        "dataTypeName" : "text",
+        "fieldName" : "imagefile",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165093,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "http://hiculturearts.pastperfect-online.com/34250images/001/002_196901-3.JPG",
+          "null" : 0,
+          "largest" : "http://hiculturearts.pastperfect-online.com/34250images/004/L200701-2.JPG",
+          "top" : [ {
+            "count" : 20,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/004/19980502.JPG"
+          }, {
+            "count" : 19,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/001/197722.JPG"
+          }, {
+            "count" : 18,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/002/199028-4.JPG"
+          }, {
+            "count" : 17,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/199449.JPG"
+          }, {
+            "count" : 16,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/200704.JPG"
+          }, {
+            "count" : 15,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/200705-4.JPG"
+          }, {
+            "count" : 14,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/004/L200701-2.JPG"
+          }, {
+            "count" : 13,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/199529.JPG"
+          }, {
+            "count" : 12,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/19990808.JPG"
+          }, {
+            "count" : 11,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/200707-2.JPG"
+          }, {
+            "count" : 10,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/003/200710-5.JPG"
+          }, {
+            "count" : 9,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/001/19290105.JPG"
+          }, {
+            "count" : 8,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/004/200802.JPG"
+          }, {
+            "count" : 7,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/001/198201.JPG"
+          }, {
+            "count" : 6,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/001/198202-4.JPG"
+          }, {
+            "count" : 5,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/001/194702.JPG"
+          }, {
+            "count" : 4,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/002/199104.JPG"
+          }, {
+            "count" : 3,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/004/200901-2.JPG"
+          }, {
+            "count" : 2,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/004/200902-2.JPG"
+          }, {
+            "count" : 1,
+            "item" : "http://hiculturearts.pastperfect-online.com/34250images/001/197201.JPG"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638427,
+        "name" : "objectid",
+        "dataTypeName" : "text",
+        "fieldName" : "objectid",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165094,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "1927.01",
+          "null" : 0,
+          "largest" : "L2007.01",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1998.05.02"
+          }, {
+            "count" : 19,
+            "item" : "1977.22"
+          }, {
+            "count" : 18,
+            "item" : "1990.28"
+          }, {
+            "count" : 17,
+            "item" : "1994.49"
+          }, {
+            "count" : 16,
+            "item" : "2007.04"
+          }, {
+            "count" : 15,
+            "item" : "2007.05"
+          }, {
+            "count" : 14,
+            "item" : "L2007.01"
+          }, {
+            "count" : 13,
+            "item" : "1995.29"
+          }, {
+            "count" : 12,
+            "item" : "1999.08.08"
+          }, {
+            "count" : 11,
+            "item" : "2007.07"
+          }, {
+            "count" : 10,
+            "item" : "2007.10"
+          }, {
+            "count" : 9,
+            "item" : "1929.01.05"
+          }, {
+            "count" : 8,
+            "item" : "2008.02"
+          }, {
+            "count" : 7,
+            "item" : "1982.01"
+          }, {
+            "count" : 6,
+            "item" : "1982.02"
+          }, {
+            "count" : 5,
+            "item" : "1947.02"
+          }, {
+            "count" : 4,
+            "item" : "1991.04"
+          }, {
+            "count" : 3,
+            "item" : "2009.01"
+          }, {
+            "count" : 2,
+            "item" : "2009.02"
+          }, {
+            "count" : 1,
+            "item" : "1972.01"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638428,
+        "name" : "discipline",
+        "dataTypeName" : "text",
+        "fieldName" : "discipline",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165095,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "Bell",
+          "null" : 0,
+          "largest" : "Window",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Mural"
+          }, {
+            "count" : 19,
+            "item" : "Sculpture"
+          }, {
+            "count" : 18,
+            "item" : "Door"
+          }, {
+            "count" : 17,
+            "item" : "Plaque"
+          }, {
+            "count" : 16,
+            "item" : "Bust"
+          }, {
+            "count" : 15,
+            "item" : "Bell"
+          }, {
+            "count" : 14,
+            "item" : "Lantern"
+          }, {
+            "count" : 13,
+            "item" : "Mosaic"
+          }, {
+            "count" : 12,
+            "item" : "Monument"
+          }, {
+            "count" : 11,
+            "item" : "Gate"
+          }, {
+            "count" : 10,
+            "item" : "Tapestry"
+          }, {
+            "count" : 9,
+            "item" : "Urn, Garden"
+          }, {
+            "count" : 8,
+            "item" : "Fountain, Water"
+          }, {
+            "count" : 7,
+            "item" : "Bell, Ship's"
+          }, {
+            "count" : 6,
+            "item" : "Vase"
+          }, {
+            "count" : 5,
+            "item" : "Case, Display"
+          }, {
+            "count" : 4,
+            "item" : "Window"
+          }, {
+            "count" : 3,
+            "item" : "Sign"
+          }, {
+            "count" : 2,
+            "item" : "Pool, Swimming"
+          }, {
+            "count" : 1,
+            "item" : "Bridge"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 12638429,
+        "name" : "title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165096,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 187,
+          "smallest" : "100th Anniversay of Kapiolani Park",
+          "null" : 12,
+          "largest" : "Whooping Cranes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Become a Star"
+          }, {
+            "count" : 19,
+            "item" : "Site of Japanese Central Institute of Hawaii"
+          }, {
+            "count" : 18,
+            "item" : "Waimanalo Beach Park Pavilion"
+          }, {
+            "count" : 17,
+            "item" : "Waialua - Kahuku War Memorial"
+          }, {
+            "count" : 16,
+            "item" : "Festival for World Peace Bell"
+          }, {
+            "count" : 15,
+            "item" : "Enpitsu"
+          }, {
+            "count" : 14,
+            "item" : "Beautiful Butterflies"
+          }, {
+            "count" : 13,
+            "item" : "Kaimuki"
+          }, {
+            "count" : 12,
+            "item" : "The Evolution of an Island"
+          }, {
+            "count" : 11,
+            "item" : "Jizo"
+          }, {
+            "count" : 10,
+            "item" : "Private First Class Herbert K. Pililaau Field"
+          }, {
+            "count" : 9,
+            "item" : "Herbert K. Pililaau Community Park Dedication"
+          }, {
+            "count" : 8,
+            "item" : "The Last Harvest"
+          }, {
+            "count" : 7,
+            "item" : "Na Mo'olelo o Kapolei (Stories of Kapolei)"
+          }, {
+            "count" : 6,
+            "item" : "As the Water Flows"
+          }, {
+            "count" : 5,
+            "item" : "Waimanalo District Park Multi-Sport Building"
+          }, {
+            "count" : 4,
+            "item" : "Lestor McCoy Pavilion"
+          }, {
+            "count" : 3,
+            "item" : "Indira Gandhi"
+          }, {
+            "count" : 2,
+            "item" : "Rajiv Gandhi"
+          }, {
+            "count" : 1,
+            "item" : "David Watumull"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638430,
+        "name" : "access",
+        "dataTypeName" : "text",
+        "fieldName" : "access",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3165097,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "Full",
+          "null" : 0,
+          "largest" : "Limited",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Limited"
+          }, {
+            "count" : 19,
+            "item" : "Full"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638431,
+        "name" : "latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3165098,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "21.256139",
+          "sum" : "4240.715676",
+          "null" : 0,
+          "average" : "21.31012902512563",
+          "largest" : "21.598031",
+          "top" : [ {
+            "count" : 20,
+            "item" : "21.303839"
+          }, {
+            "count" : 19,
+            "item" : "21.304179"
+          }, {
+            "count" : 18,
+            "item" : "21.304049"
+          }, {
+            "count" : 17,
+            "item" : "21.299458"
+          }, {
+            "count" : 16,
+            "item" : "21.300024"
+          }, {
+            "count" : 15,
+            "item" : "21.270476"
+          }, {
+            "count" : 14,
+            "item" : "21.314293"
+          }, {
+            "count" : 13,
+            "item" : "21.311009"
+          }, {
+            "count" : 12,
+            "item" : "21.305302"
+          }, {
+            "count" : 11,
+            "item" : "21.298081"
+          }, {
+            "count" : 10,
+            "item" : "21.315463"
+          }, {
+            "count" : 9,
+            "item" : "21.332134"
+          }, {
+            "count" : 8,
+            "item" : "21.598031"
+          }, {
+            "count" : 7,
+            "item" : "21.384917"
+          }, {
+            "count" : 6,
+            "item" : "21.329933"
+          }, {
+            "count" : 5,
+            "item" : "21.31637"
+          }, {
+            "count" : 4,
+            "item" : "21.28226"
+          }, {
+            "count" : 3,
+            "item" : "21.270859"
+          }, {
+            "count" : 2,
+            "item" : "21.281052"
+          }, {
+            "count" : 1,
+            "item" : "21.447314"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638432,
+        "name" : "longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 3165099,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "-158.193043",
+          "sum" : "-31415.288473",
+          "null" : 0,
+          "average" : "-157.8657712211055",
+          "largest" : "-157.677796",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-157.85152"
+          }, {
+            "count" : 19,
+            "item" : "-157.85167"
+          }, {
+            "count" : 18,
+            "item" : "-157.851166"
+          }, {
+            "count" : 17,
+            "item" : "-157.85169"
+          }, {
+            "count" : 16,
+            "item" : "-157.851439"
+          }, {
+            "count" : 15,
+            "item" : "-157.822525"
+          }, {
+            "count" : 14,
+            "item" : "-157.861829"
+          }, {
+            "count" : 13,
+            "item" : "-157.86154"
+          }, {
+            "count" : 12,
+            "item" : "-157.856944"
+          }, {
+            "count" : 11,
+            "item" : "-157.83813"
+          }, {
+            "count" : 10,
+            "item" : "-157.857681"
+          }, {
+            "count" : 9,
+            "item" : "-157.694224"
+          }, {
+            "count" : 8,
+            "item" : "-158.103272"
+          }, {
+            "count" : 7,
+            "item" : "-157.953626"
+          }, {
+            "count" : 6,
+            "item" : "-158.08172"
+          }, {
+            "count" : 5,
+            "item" : "-157.858174"
+          }, {
+            "count" : 4,
+            "item" : "-157.799122"
+          }, {
+            "count" : 3,
+            "item" : "-157.821424"
+          }, {
+            "count" : 2,
+            "item" : "-157.677796"
+          }, {
+            "count" : 1,
+            "item" : "-158.186031"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 12638433,
+        "name" : "location",
+        "dataTypeName" : "location",
+        "fieldName" : "artloc",
+        "position" : 13,
+        "renderTypeName" : "location",
+        "tableColumnId" : 3165175,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : {
+            "longitude" : "-157.85131",
+            "latitude" : "21.290824"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-157.848872",
+            "latitude" : "21.30346"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-157.821243",
+              "latitude" : "21.270481"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-157.832116",
+              "latitude" : "21.289644"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-157.858302",
+              "latitude" : "21.299358"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-157.823185",
+              "latitude" : "21.292588"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-158.193043",
+              "latitude" : "21.449946"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-157.854293",
+              "latitude" : "21.304519"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-157.85169",
+              "latitude" : "21.299458"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-157.851439",
+              "latitude" : "21.300024"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-157.822525",
+              "latitude" : "21.270476"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-157.861829",
+              "latitude" : "21.314293"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-157.86154",
+              "latitude" : "21.311009"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-157.856944",
+              "latitude" : "21.305302"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-157.83813",
+              "latitude" : "21.298081"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-157.857681",
+              "latitude" : "21.315463"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-157.694224",
+              "latitude" : "21.332134"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-158.103272",
+              "latitude" : "21.598031"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-157.953626",
+              "latitude" : "21.384917"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-158.08172",
+              "latitude" : "21.329933"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-157.858174",
+              "latitude" : "21.31637"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-157.799122",
+              "latitude" : "21.28226"
+            }
+          } ]
+        },
+        "format" : {
+          "view" : "address_coords",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 12638434,
+        "name" : "thumb",
+        "dataTypeName" : "text",
+        "fieldName" : "thumb",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3166707,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 199
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "gcjf-354x",
+        "displayName" : "Mick Thompson",
+        "screenName" : "Mick Thompson"
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "gcjf-354x",
+        "displayName" : "Mick Thompson",
+        "screenName" : "Mick Thompson"
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 2, "33B50ADF-C9DE-4B48-A4BD-B1C1D789FD08", 2, 1340413921, "436621", 1340413921, "436621", "{\n}", "Robert Lee Eskridge", "Funded by the Works Progress Administration", "1935", "One of a pair of murals at the Lester McCoy Pavilion at Ala Mona Regional Park. A Works Progress Administration art project, done in the Art Deco style. It depicts various aspects of makahiki (harvest festival), imagined as taking place in the vicinity of what is now know as Ala Mona Park, makahiki pa'ani ho'oikaika (annual sports tournaments) are emphasized. This mural shows ali'i (chiefs) guided by the spirit of Lono (one of the four major Hawaiian gods, associated with peace and fertility) being presented with ho'okupu (tribute). In the distance kahuna (priests) guard the kapa (bark cloth) double banner of Lono. In the background are the silhouette of Lae'ahi (Diamond Head) and the village of Waikiki (spouting water). Sports represented are he'e holua (sled racing), mokomoko (hand-to-hand fighting), and 'ulu maika (bowling), dance and music are represented with 'uli'uli (gourd rattle), pahu (drum), and mahiole (helmet).", "Lester McCoy Pavilion", "http://hiculturearts.pastperfect-online.com/34250images/001/19300101.JPG", "1930.01.01", "Mural", "Starbucks", "4.3/5. Drink lattes with your friends.", "-37.8100565", "144.9643151"]
+      , [ 3, "33B50ADF-C9DE-4B48-A4BD-B1C1D789FD08", 2, 1340413921, "436621", 1340413921, "436621", "{\n}", "Robert Lee Eskridge", "Funded by the Works Progress Administration", "1935", "One of a pair of murals at the Lester McCoy Pavilion at Ala Mona Regional Park. A Works Progress Administration art project, done in the Art Deco style. It depicts various aspects of makahiki (harvest festival), imagined as taking place in the vicinity of what is now know as Ala Mona Park, makahiki pa'ani ho'oikaika (annual sports tournaments) are emphasized. This mural shows ali'i (chiefs) guided by the spirit of Lono (one of the four major Hawaiian gods, associated with peace and fertility) being presented with ho'okupu (tribute). In the distance kahuna (priests) guard the kapa (bark cloth) double banner of Lono. In the background are the silhouette of Lae'ahi (Diamond Head) and the village of Waikiki (spouting water). Sports represented are he'e holua (sled racing), mokomoko (hand-to-hand fighting), and 'ulu maika (bowling), dance and music are represented with 'uli'uli (gourd rattle), pahu (drum), and mahiole (helmet).", "Lester McCoy Pavilion", "http://hiculturearts.pastperfect-online.com/34250images/001/19300101.JPG", "1930.01.01", "Mural", "Eco Cafe", "Rating: 4.6/5. A cute little eco friendly cafe.", "-37.81412397", "144.9612399"]
+ ]
+}
