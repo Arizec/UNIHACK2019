@@ -14,6 +14,8 @@
 		65166EBC223CAE56008A9831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65166EBA223CAE56008A9831 /* LaunchScreen.storyboard */; };
 		65166EC7223CAE56008A9831 /* Unihack2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166EC6223CAE56008A9831 /* Unihack2019Tests.swift */; };
 		65166ED2223CAE57008A9831 /* Unihack2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166ED1223CAE57008A9831 /* Unihack2019UITests.swift */; };
+		65166F1A223CC630008A9831 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166F19223CC630008A9831 /* MapViewController.swift */; };
+		65166F1D223CC9E8008A9831 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65166F1C223CC9E8008A9831 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		65166ECD223CAE56008A9831 /* Unihack2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unihack2019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65166ED1223CAE57008A9831 /* Unihack2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unihack2019UITests.swift; sourceTree = "<group>"; };
 		65166ED3223CAE57008A9831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65166F19223CC630008A9831 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		65166F1C223CC9E8008A9831 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65166F1D223CC9E8008A9831 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				65166EC5223CAE56008A9831 /* Unihack2019Tests */,
 				65166ED0223CAE57008A9831 /* Unihack2019UITests */,
 				65166EAF223CAE53008A9831 /* Products */,
+				65166F1B223CC9E8008A9831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +106,7 @@
 				65166EB1223CAE53008A9831 /* AppDelegate.swift */,
 				65166EB3223CAE53008A9831 /* HomeViewController.swift */,
 				65166EB5223CAE53008A9831 /* Main.storyboard */,
+				65166F19223CC630008A9831 /* MapViewController.swift */,
 				65166EB8223CAE56008A9831 /* Assets.xcassets */,
 				65166EBA223CAE56008A9831 /* LaunchScreen.storyboard */,
 				65166EBD223CAE56008A9831 /* Info.plist */,
@@ -123,6 +130,14 @@
 				65166ED3223CAE57008A9831 /* Info.plist */,
 			);
 			path = Unihack2019UITests;
+			sourceTree = "<group>";
+		};
+		65166F1B223CC9E8008A9831 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65166F1C223CC9E8008A9831 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65166EB4223CAE53008A9831 /* HomeViewController.swift in Sources */,
+				65166F1A223CC630008A9831 /* MapViewController.swift in Sources */,
 				65166EB2223CAE53008A9831 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
