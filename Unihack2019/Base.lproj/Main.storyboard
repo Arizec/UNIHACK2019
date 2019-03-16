@@ -401,8 +401,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="qRI-qi-NfU" id="aFM-bx-399"/>
-                                    <outlet property="delegate" destination="qRI-qi-NfU" id="tBl-s7-D6N"/>
+                                    <outlet property="dataSource" destination="qRI-qi-NfU" id="e7c-rF-bcN"/>
+                                    <outlet property="delegate" destination="qRI-qi-NfU" id="M9u-Nn-R1y"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -411,7 +411,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="G1u-FE-3ia"/>
                     <connections>
-                        <outlet property="tableView" destination="cwP-QV-dbw" id="kNb-VY-PdI"/>
+                        <outlet property="tableView" destination="cwP-QV-dbw" id="iV6-iC-Mfn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmN-7k-Fbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -475,28 +475,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY POINTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR3-WJ-vsI">
-                                <rect key="frame" x="0.0" y="164" width="414" height="37"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEw-7C-Xyz">
+                                <rect key="frame" x="0.0" y="212" width="414" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEw-7C-Xyz">
-                                <rect key="frame" x="0.0" y="212" width="414" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MY CREDIT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpE-gy-HAw">
+                                <rect key="frame" x="0.0" y="132" width="414" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.39607843139999999" green="0.86666666670000003" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="R2q-wB-8tS" firstAttribute="trailing" secondItem="LR3-WJ-vsI" secondAttribute="trailing" id="3BE-Nt-u2w"/>
-                            <constraint firstItem="LR3-WJ-vsI" firstAttribute="top" secondItem="R2q-wB-8tS" secondAttribute="top" constant="76" id="5xf-dr-gfH"/>
-                            <constraint firstItem="gEw-7C-Xyz" firstAttribute="top" secondItem="LR3-WJ-vsI" secondAttribute="bottom" constant="20" id="W5R-wN-CmN"/>
-                            <constraint firstItem="gEw-7C-Xyz" firstAttribute="leading" secondItem="R2q-wB-8tS" secondAttribute="leading" id="uys-Ss-ble"/>
-                            <constraint firstItem="R2q-wB-8tS" firstAttribute="trailing" secondItem="gEw-7C-Xyz" secondAttribute="trailing" id="wBM-Xp-Zk8"/>
-                            <constraint firstItem="LR3-WJ-vsI" firstAttribute="leading" secondItem="R2q-wB-8tS" secondAttribute="leading" id="ytZ-mX-7fk"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="R2q-wB-8tS"/>
                     </view>
                     <navigationItem key="navigationItem" title="Points" id="T1e-WJ-BJ3"/>
