@@ -253,9 +253,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8K-sh-QRd">
                                 <rect key="frame" x="269" y="80" width="81" height="30"/>
                                 <state key="normal" title="1000 points"/>
-                                <connections>
-                                    <segue destination="hEa-mZ-kqC" kind="show" id="Pmo-c9-beu"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhQ-6e-Y45">
                                 <rect key="frame" x="138" y="184" width="30" height="30"/>
@@ -297,44 +294,6 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="877.60000000000002" y="26.53673163418291"/>
-        </scene>
-        <!--Claim Rewards-->
-        <scene sceneID="4v1-fd-7kO">
-            <objects>
-                <viewController id="hEa-mZ-kqC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="f7a-za-Xag">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY POINTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBb-a9-6Pz">
-                                <rect key="frame" x="0.0" y="140" width="375" height="20"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m57-na-usM">
-                                <rect key="frame" x="0.0" y="180" width="375" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.396078431372549" green="0.8666666666666667" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="act-0F-2tD" firstAttribute="trailing" secondItem="m57-na-usM" secondAttribute="trailing" id="4Fx-QL-g6x"/>
-                            <constraint firstItem="m57-na-usM" firstAttribute="leading" secondItem="act-0F-2tD" secondAttribute="leading" id="EDb-Jb-Gmz"/>
-                            <constraint firstItem="m57-na-usM" firstAttribute="top" secondItem="QBb-a9-6Pz" secondAttribute="bottom" constant="20" id="MLg-IV-eNt"/>
-                            <constraint firstItem="act-0F-2tD" firstAttribute="trailing" secondItem="QBb-a9-6Pz" secondAttribute="trailing" id="c9l-bZ-zOa"/>
-                            <constraint firstItem="QBb-a9-6Pz" firstAttribute="leading" secondItem="act-0F-2tD" secondAttribute="leading" id="nLa-6i-UFe"/>
-                            <constraint firstItem="QBb-a9-6Pz" firstAttribute="top" secondItem="act-0F-2tD" secondAttribute="top" constant="76" id="v13-ip-6sj"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="act-0F-2tD"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Claim Rewards" id="1tQ-ym-KPl"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s1T-Ys-iPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1727.2" y="27.436281859070466"/>
         </scene>
     </scenes>
     <resources>
