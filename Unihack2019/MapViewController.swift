@@ -33,12 +33,13 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        let initialLocation = CLLocation(latitude: -37.81412398, longitude: 144.9612398)
+        let initialLocation = CLLocation(latitude: -37.8100565, longitude: 144.9643151)
         centerMapOnLocation(location: initialLocation)
         
         mapView.delegate = self
         
         loadInitialData()
+        print(restaurants)
         mapView.addAnnotations(restaurants)
         
 //        let artwork = Restaurant(title: "Starbucks",
@@ -97,6 +98,8 @@ extension MapViewController: MKMapViewDelegate {
         }
         return view
     }
+    
+    
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView,
                  calloutAccessoryControlTapped control: UIControl) {
