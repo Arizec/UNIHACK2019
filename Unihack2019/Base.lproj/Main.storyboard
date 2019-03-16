@@ -180,7 +180,7 @@
         <!--Information-->
         <scene sceneID="bSE-ox-5aU">
             <objects>
-                <viewController id="Gem-ll-08e" sceneMemberID="viewController">
+                <viewController id="Gem-ll-08e" customClass="RestaurantViewController" customModule="Unihack2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZNh-X5-O4f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,7 +212,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kaz-P9-Gwm">
-                                <rect key="frame" x="0.0" y="222" width="375" height="300"/>
+                                <rect key="frame" x="0.0" y="222" width="375" height="445"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8K-sh-QRd">
                                 <rect key="frame" x="269" y="80" width="81" height="30"/>
@@ -221,17 +221,11 @@
                                     <segue destination="hEa-mZ-kqC" kind="show" id="Pmo-c9-beu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spend $50 or more to earn 500 points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoK-5G-xog">
-                                <rect key="frame" x="0.0" y="583" width="375" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhQ-6e-Y45">
-                                <rect key="frame" x="0.0" y="545" width="375" height="30"/>
-                                <state key="normal" title="Restaurant name"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhQ-6e-Y45">
+                                <rect key="frame" x="138" y="184" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="Gem-ll-08e" kind="show" id="v0x-zh-TAc"/>
+                                    <segue destination="Gem-ll-08e" kind="show" identifier="goToRestaurant" id="v0x-zh-TAc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -239,27 +233,20 @@
                         <constraints>
                             <constraint firstItem="VXo-lk-qHR" firstAttribute="top" secondItem="x8K-sh-QRd" secondAttribute="bottom" constant="18" id="683-X5-oDs"/>
                             <constraint firstItem="VXo-lk-qHR" firstAttribute="top" secondItem="8Wm-ZP-3ar" secondAttribute="top" constant="64" id="6ZV-ZD-leC"/>
-                            <constraint firstItem="hhQ-6e-Y45" firstAttribute="leading" secondItem="kaz-P9-Gwm" secondAttribute="leading" id="GDu-0b-d0L"/>
-                            <constraint firstItem="PoK-5G-xog" firstAttribute="top" secondItem="hhQ-6e-Y45" secondAttribute="bottom" constant="8" id="NL0-CW-JvR"/>
+                            <constraint firstItem="kaz-P9-Gwm" firstAttribute="bottom" secondItem="8Wm-ZP-3ar" secondAttribute="bottom" id="Ig5-Q5-AWZ"/>
                             <constraint firstItem="kaz-P9-Gwm" firstAttribute="trailing" secondItem="8Wm-ZP-3ar" secondAttribute="trailing" id="QJo-Cs-d5n"/>
-                            <constraint firstItem="8Wm-ZP-3ar" firstAttribute="bottom" secondItem="kaz-P9-Gwm" secondAttribute="bottom" constant="145" id="TmH-jv-gDe"/>
-                            <constraint firstItem="hhQ-6e-Y45" firstAttribute="leading" secondItem="8Wm-ZP-3ar" secondAttribute="leading" id="VoL-p9-IL6"/>
                             <constraint firstItem="x8K-sh-QRd" firstAttribute="top" secondItem="8Wm-ZP-3ar" secondAttribute="top" constant="16" id="ZwZ-Sd-aUM"/>
-                            <constraint firstItem="hhQ-6e-Y45" firstAttribute="trailing" secondItem="8Wm-ZP-3ar" secondAttribute="trailing" id="g10-5t-V77"/>
                             <constraint firstItem="8Wm-ZP-3ar" firstAttribute="trailing" secondItem="x8K-sh-QRd" secondAttribute="trailing" constant="25" id="jXJ-kc-SRA"/>
                             <constraint firstItem="8Wm-ZP-3ar" firstAttribute="trailing" secondItem="VXo-lk-qHR" secondAttribute="trailing" constant="25" id="oqL-DU-NV9"/>
-                            <constraint firstItem="PoK-5G-xog" firstAttribute="leading" secondItem="8Wm-ZP-3ar" secondAttribute="leading" id="pSG-gd-f7D"/>
                             <constraint firstItem="kaz-P9-Gwm" firstAttribute="leading" secondItem="8Wm-ZP-3ar" secondAttribute="leading" id="pcS-HA-PHa"/>
                             <constraint firstItem="VXo-lk-qHR" firstAttribute="leading" secondItem="8Wm-ZP-3ar" secondAttribute="leading" constant="25" id="tjB-y4-HTv"/>
                             <constraint firstItem="kaz-P9-Gwm" firstAttribute="top" secondItem="VXo-lk-qHR" secondAttribute="bottom" constant="38" id="vke-rS-8Uf"/>
-                            <constraint firstItem="PoK-5G-xog" firstAttribute="trailing" secondItem="8Wm-ZP-3ar" secondAttribute="trailing" id="wqf-UQ-z7h"/>
-                            <constraint firstItem="hhQ-6e-Y45" firstAttribute="top" secondItem="kaz-P9-Gwm" secondAttribute="bottom" constant="23" id="xo6-pX-mGi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Wm-ZP-3ar"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="on3-gh-Xsd"/>
                     <connections>
-                        <outlet property="restaurantMap" destination="kaz-P9-Gwm" id="J9n-Bx-LC9"/>
+                        <outlet property="mapView" destination="kaz-P9-Gwm" id="8us-qV-h29"/>
                         <outlet property="searchDisplayController" destination="NT2-GO-1jM" id="Fkr-wn-8ee"/>
                     </connections>
                 </viewController>
