@@ -111,7 +111,10 @@
 		65166EB0223CAE53008A9831 /* Unihack2019 */ = {
 			isa = PBXGroup;
 			children = (
-				65166F28223D1A79008A9831 /* ViewController */,
+				65166EB3223CAE53008A9831 /* HomeViewController.swift */,
+				65166F26223D1A6E008A9831 /* PointsViewController.swift */,
+				65166F19223CC630008A9831 /* MapViewController.swift */,
+				65166F20223CE2A2008A9831 /* RestaurantViewController.swift */,
 				65166F24223D0BBA008A9831 /* PublicArt.json */,
 				65166EB1223CAE53008A9831 /* AppDelegate.swift */,
 				65166EB5223CAE53008A9831 /* Main.storyboard */,
@@ -147,17 +150,6 @@
 				65166F1C223CC9E8008A9831 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		65166F28223D1A79008A9831 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				65166F26223D1A6E008A9831 /* PointsViewController.swift */,
-				65166EB3223CAE53008A9831 /* HomeViewController.swift */,
-				65166F19223CC630008A9831 /* MapViewController.swift */,
-				65166F20223CE2A2008A9831 /* RestaurantViewController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
