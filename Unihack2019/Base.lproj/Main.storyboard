@@ -34,24 +34,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DT7-Eb-0Eu">
-                                <rect key="frame" x="80" y="545" width="102" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DT7-Eb-0Eu">
+                                <rect key="frame" x="217" y="538" width="102" height="30"/>
                                 <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" red="0.52549019607843139" green="0.52549019607843139" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="aTz-QZ-bup" kind="show" id="jom-0T-X4R"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfe-DV-ryo">
-                                <rect key="frame" x="205" y="545" width="87" height="30"/>
-                                <color key="backgroundColor" red="0.36470588235294116" green="0.83529411764705885" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="REGISTER">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="6Yu-ON-vDk" kind="show" id="cqp-Pp-ZCF"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bkE-8b-g3B">
@@ -66,15 +56,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqn-Hq-Sbt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqn-Hq-Sbt">
                                 <rect key="frame" x="182" y="397" width="51" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.52549019607843139" green="0.52549019607843139" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfe-DV-ryo">
+                                <rect key="frame" x="98" y="538" width="87" height="30"/>
+                                <color key="backgroundColor" red="0.36470588235294116" green="0.83529411764705885" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="REGISTER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Yu-ON-vDk" kind="show" id="cqp-Pp-ZCF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EFT-gL-DeM" firstAttribute="top" secondItem="oqn-Hq-Sbt" secondAttribute="bottom" constant="20" id="7PG-s4-c62"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yfe-DV-ryo" secondAttribute="trailing" constant="98" id="C7D-Mw-LGM"/>
                             <constraint firstItem="yfe-DV-ryo" firstAttribute="top" secondItem="bkE-8b-g3B" secondAttribute="bottom" constant="24" id="Pdr-vS-NeO"/>
                             <constraint firstItem="bkE-8b-g3B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="QC5-Co-NkC"/>
@@ -82,10 +83,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bkE-8b-g3B" secondAttribute="trailing" constant="95" id="UuO-Sc-KGY"/>
                             <constraint firstItem="DT7-Eb-0Eu" firstAttribute="top" secondItem="bkE-8b-g3B" secondAttribute="bottom" constant="24" id="VJg-6H-9GE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yfe-DV-ryo" secondAttribute="bottom" constant="287" id="VrG-R4-pv6"/>
+                            <constraint firstItem="oqn-Hq-Sbt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="Xw0-Qc-3JX"/>
                             <constraint firstItem="DT7-Eb-0Eu" firstAttribute="top" secondItem="bkE-8b-g3B" secondAttribute="bottom" constant="24" id="bnF-cY-YNx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DT7-Eb-0Eu" secondAttribute="bottom" constant="287" id="hbD-ch-Zgv"/>
                             <constraint firstItem="DT7-Eb-0Eu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="jQn-ZS-2ja"/>
                             <constraint firstItem="bkE-8b-g3B" firstAttribute="top" secondItem="EFT-gL-DeM" secondAttribute="bottom" constant="17" id="l4b-YR-MMw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oqn-Hq-Sbt" secondAttribute="trailing" constant="181" id="ms1-bB-UiH"/>
                             <constraint firstItem="EFT-gL-DeM" firstAttribute="top" secondItem="oqn-Hq-Sbt" secondAttribute="bottom" constant="28" id="rsE-dN-Uuq"/>
                             <constraint firstItem="EFT-gL-DeM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="uib-qk-O7k"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EFT-gL-DeM" secondAttribute="trailing" constant="95" id="woh-Db-NHD"/>
@@ -478,7 +481,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY POINTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR3-WJ-vsI">
-                                <rect key="frame" x="0.0" y="140" width="414" height="37"/>
+                                <rect key="frame" x="0.0" y="164" width="414" height="37"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
