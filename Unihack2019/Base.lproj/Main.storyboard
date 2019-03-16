@@ -221,9 +221,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbucks" translatesAutoresizingMaskIntoConstraints="NO" id="fZH-Cg-WKc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starbucks" translatesAutoresizingMaskIntoConstraints="NO" id="fZH-Cg-WKc">
                                 <rect key="frame" x="0.0" y="64" width="414" height="224"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="F7a-hn-zI7"/>
+                                    <constraint firstAttribute="width" constant="414" id="gBQ-iH-jWB"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Starbucks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="904-Rp-vSf">
                                 <rect key="frame" x="25" y="315" width="389" height="33"/>
@@ -257,6 +260,14 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fZH-Cg-WKc" firstAttribute="leading" secondItem="74V-4J-egA" secondAttribute="leading" id="5eq-lk-18e"/>
+                            <constraint firstItem="fZH-Cg-WKc" firstAttribute="leading" secondItem="74V-4J-egA" secondAttribute="leading" id="5nK-iJ-RWA"/>
+                            <constraint firstItem="fZH-Cg-WKc" firstAttribute="top" secondItem="74V-4J-egA" secondAttribute="top" id="Y3i-UP-6BR"/>
+                            <constraint firstItem="fZH-Cg-WKc" firstAttribute="trailing" secondItem="74V-4J-egA" secondAttribute="trailing" id="cjt-Ve-Fey"/>
+                            <constraint firstItem="fZH-Cg-WKc" firstAttribute="trailing" secondItem="74V-4J-egA" secondAttribute="trailing" id="nJp-Oe-5MI"/>
+                            <constraint firstItem="fZH-Cg-WKc" firstAttribute="top" secondItem="74V-4J-egA" secondAttribute="top" id="vPR-o4-n6f"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="74V-4J-egA"/>
                     </view>
                     <navigationItem key="navigationItem" title="Information" id="PAZ-iJ-APH"/>
@@ -346,6 +357,9 @@
                                 <state key="normal" title="My Profile">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qRI-qi-NfU" kind="show" id="OIn-6d-6T5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2B-fC-A4z">
                                 <rect key="frame" x="51" y="253" width="183" height="52"/>
@@ -355,7 +369,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lv7-l4-GNW" kind="show" id="lgW-o4-DHw"/>
+                                    <segue destination="lv7-l4-GNW" kind="show" id="Bwk-QW-W1K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHB-tB-gXy">
@@ -365,6 +379,9 @@
                                 <state key="normal" title="My Rewards">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZtJ-of-3p7" kind="show" id="FKp-ac-7Bv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgf-kw-beg">
                                 <rect key="frame" x="55" y="398" width="304" height="52"/>
@@ -373,6 +390,9 @@
                                 <state key="normal" title="Partnered Eateries">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="yoW-TY-fXs" kind="show" id="5z8-QI-4Oi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.79955952549999998" blue="0.37991290890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -383,7 +403,55 @@
             </objects>
             <point key="canvasLocation" x="1723.1884057971015" y="25.271739130434785"/>
         </scene>
-        <!--Claim Rewards-->
+        <!--Profile-->
+        <scene sceneID="vXI-9A-7Vb">
+            <objects>
+                <viewController id="qRI-qi-NfU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MJj-Ek-bQC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.10009138862001732" green="0.7623091497051282" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Hsv-6K-tdD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="G1u-FE-3ia"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmN-7k-Fbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1723" y="745"/>
+        </scene>
+        <!--View Rewards-->
+        <scene sceneID="3GR-GI-jPO">
+            <objects>
+                <viewController id="ZtJ-of-3p7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hpj-Zv-Cix">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.91855569948186533" green="0.31374670977359093" blue="0.40143449360135708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="wyY-Mh-EUg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="View Rewards" id="PSb-mU-0ja"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aWj-qR-vnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2532" y="734"/>
+        </scene>
+        <!--Partnerships-->
+        <scene sceneID="1zb-zs-k3o">
+            <objects>
+                <viewController id="yoW-TY-fXs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CaM-sL-h4f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.56278503391735324" blue="0.29690110404591674" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="GIv-O2-jfG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Partnerships" id="uBO-dj-FCj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daO-Yl-UQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3480" y="746"/>
+        </scene>
+        <!--Points-->
         <scene sceneID="PT9-8a-Wfl">
             <objects>
                 <viewController id="lv7-l4-GNW" sceneMemberID="viewController">
@@ -392,14 +460,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY POINTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LR3-WJ-vsI">
-                                <rect key="frame" x="0.0" y="164" width="414" height="43"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="342" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEw-7C-Xyz">
-                                <rect key="frame" x="0.0" y="227" width="414" height="53"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <rect key="frame" x="0.0" y="180" width="414" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -415,7 +483,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="R2q-wB-8tS"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Claim Rewards" id="T1e-WJ-BJ3"/>
+                    <navigationItem key="navigationItem" title="Points" id="T1e-WJ-BJ3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOZ-wF-E9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -423,7 +491,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="more_options" width="256" height="256"/>
-        <image name="starbucks" width="137" height="91"/>
+        <image name="more_options" width="384" height="384"/>
+        <image name="starbucks" width="275" height="183"/>
     </resources>
 </document>
