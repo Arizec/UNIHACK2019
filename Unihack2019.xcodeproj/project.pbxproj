@@ -19,6 +19,7 @@
 		65166F1F223CDD88008A9831 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166F1E223CDD88008A9831 /* Restaurant.swift */; };
 		65166F21223CE2A2008A9831 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166F20223CE2A2008A9831 /* RestaurantViewController.swift */; };
 		65166F25223D0BBA008A9831 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 65166F24223D0BBA008A9831 /* PublicArt.json */; };
+		65166F27223D1A6E008A9831 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166F26223D1A6E008A9831 /* PointsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		65166F1E223CDD88008A9831 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		65166F20223CE2A2008A9831 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		65166F24223D0BBA008A9831 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PublicArt.json; path = "../../../../Downloads/HonoluluArt final/HonoluluArt/PublicArt.json"; sourceTree = "<group>"; };
+		65166F26223D1A6E008A9831 /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,11 @@
 		65166EB0223CAE53008A9831 /* Unihack2019 */ = {
 			isa = PBXGroup;
 			children = (
+				65166F28223D1A79008A9831 /* ViewController */,
 				65166F24223D0BBA008A9831 /* PublicArt.json */,
 				65166EB1223CAE53008A9831 /* AppDelegate.swift */,
-				65166EB3223CAE53008A9831 /* HomeViewController.swift */,
 				65166EB5223CAE53008A9831 /* Main.storyboard */,
 				65166F1E223CDD88008A9831 /* Restaurant.swift */,
-				65166F19223CC630008A9831 /* MapViewController.swift */,
-				65166F20223CE2A2008A9831 /* RestaurantViewController.swift */,
 				65166EB8223CAE56008A9831 /* Assets.xcassets */,
 				65166EBA223CAE56008A9831 /* LaunchScreen.storyboard */,
 				65166EBD223CAE56008A9831 /* Info.plist */,
@@ -147,6 +147,17 @@
 				65166F1C223CC9E8008A9831 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65166F28223D1A79008A9831 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				65166F26223D1A6E008A9831 /* PointsViewController.swift */,
+				65166EB3223CAE53008A9831 /* HomeViewController.swift */,
+				65166F19223CC630008A9831 /* MapViewController.swift */,
+				65166F20223CE2A2008A9831 /* RestaurantViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65166F1F223CDD88008A9831 /* Restaurant.swift in Sources */,
+				65166F27223D1A6E008A9831 /* PointsViewController.swift in Sources */,
 				65166F21223CE2A2008A9831 /* RestaurantViewController.swift in Sources */,
 				65166EB4223CAE53008A9831 /* HomeViewController.swift in Sources */,
 				65166F1A223CC630008A9831 /* MapViewController.swift in Sources */,
