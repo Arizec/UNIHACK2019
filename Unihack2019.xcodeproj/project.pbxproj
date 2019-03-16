@@ -18,7 +18,6 @@
 		65166F1D223CC9E8008A9831 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65166F1C223CC9E8008A9831 /* CoreLocation.framework */; };
 		65166F1F223CDD88008A9831 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166F1E223CDD88008A9831 /* Restaurant.swift */; };
 		65166F21223CE2A2008A9831 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65166F20223CE2A2008A9831 /* RestaurantViewController.swift */; };
-		65166F23223CEA62008A9831 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 65166F22223CEA62008A9831 /* PublicArt.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		65166F1C223CC9E8008A9831 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		65166F1E223CDD88008A9831 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		65166F20223CE2A2008A9831 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
-		65166F22223CEA62008A9831 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PublicArt.json; path = "../../../../Downloads/HonoluluArt final/HonoluluArt/PublicArt.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 		65166EB0223CAE53008A9831 /* Unihack2019 */ = {
 			isa = PBXGroup;
 			children = (
-				65166F22223CEA62008A9831 /* PublicArt.json */,
 				65166EB1223CAE53008A9831 /* AppDelegate.swift */,
 				65166EB3223CAE53008A9831 /* HomeViewController.swift */,
 				65166EB5223CAE53008A9831 /* Main.storyboard */,
@@ -253,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65166F23223CEA62008A9831 /* PublicArt.json in Resources */,
 				65166EBC223CAE56008A9831 /* LaunchScreen.storyboard in Resources */,
 				65166EB9223CAE56008A9831 /* Assets.xcassets in Resources */,
 				65166EB7223CAE53008A9831 /* Main.storyboard in Resources */,
